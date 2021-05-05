@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background-color: rgb(249, 249, 249);
+  letter-spacing: 0,7px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 0,7px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0,7px;
+}
+
+div {
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.white-card {
+  margin-bottom: 15px;
+}
+
+#img-circle {
+    width: 100px;
+    border-radius: 300px;
+  }
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+
+.btn-grey {
+    background-color: rgb(39, 106, 111);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-grey:hover {
+  background-color: rgb(0, 0, 0);
+} 
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: inline-block;
+  padding: 0px 3px;
+  font-size: 20px;
+}
+
+.list-inline:hover {
+  color: rgb(39, 106, 111);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
