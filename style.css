@@ -48,7 +48,7 @@ div {
 a {
   font-weight: 500;
   text-decoration: none;
-  color: rgb(160, 160, 160);
+  color: #a99e89;
   font-variant: small-caps;
   letter-spacing: 2px;
 }
@@ -62,7 +62,7 @@ a {
 }
 
 .btn-grey:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: #a99e89;
 } 
 
 .list-inline {
